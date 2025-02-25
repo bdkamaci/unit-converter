@@ -2,7 +2,29 @@
 
 A simple Spring Boot application for converting between different units of measurement including temperature, length, and weight.
 
-## Features
+---
+
+## **Table of Contents**
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation and Running](#installation-and-running)
+- [API Usage](#api-usage)
+  - [REST Endpoints](#rest-endpoints)
+    - [Temperature Conversion](#temperature-conversion)
+    - [Length Conversion](#length-conversion)
+    - [Weight Conversion](#weight-conversion)
+- [Running Tests](#running-tests)
+- [Project Structure](#project-structure)
+- [Contribution](#contribution)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+
+---
+
+## **Features**
 
 - Temperature conversion (Celsius, Fahrenheit, Kelvin)
 - Length conversion (Meter, Kilometer, Mile, Foot, Inch)
@@ -10,7 +32,9 @@ A simple Spring Boot application for converting between different units of measu
 - User-friendly web interface
 - RESTful API endpoints for programmatic access
 
-## Technologies Used
+---
+
+## **Technologies Used**
 
 - Java 21
 - Spring Boot 3.2.2
@@ -18,14 +42,16 @@ A simple Spring Boot application for converting between different units of measu
 - Bootstrap for responsive design
 - JUnit 5 for testing
 
-## Getting Started
+---
 
-### Prerequisites
+## **Getting Started**
+
+### **Prerequisites**
 
 - JDK 21 or later
 - Maven 3.6 or later
 
-### Installation and Running
+### **Installation and Running**
 
 1. Clone the repository
 ```bash
@@ -46,11 +72,13 @@ mvn spring-boot:run
 4. Access the application
    Open your browser and navigate to `http://localhost:8080`
 
-## API Usage
+---
 
-### REST Endpoints
+## **API Usage**
 
-#### Temperature Conversion
+### **REST Endpoints**
+
+#### **Temperature Conversion**
 ```
 POST /api/convert/temperature
 Content-Type: application/json
@@ -62,7 +90,7 @@ Content-Type: application/json
 }
 ```
 
-#### Length Conversion
+#### **Length Conversion**
 ```
 POST /api/convert/length
 Content-Type: application/json
@@ -74,7 +102,7 @@ Content-Type: application/json
 }
 ```
 
-#### Weight Conversion
+#### **Weight Conversion**
 ```
 POST /api/convert/weight
 Content-Type: application/json
@@ -86,13 +114,17 @@ Content-Type: application/json
 }
 ```
 
-## Running Tests
+---
+
+## **Running Tests**
 
 ```bash
 mvn test
 ```
 
-## Project Structure
+---
+
+## **Project Structure**
 
 ```
 src/
@@ -138,7 +170,9 @@ src/
                             └── ConverterServiceImplTest.java
 ```
 
-## Contributing
+---
+
+## **Contribution**
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -146,6 +180,23 @@ src/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+---
+
+## **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## **Acknowledgments**
+
+- Spring Boot Documentation
+- https://roadmap.sh/projects/unit-converter
+
+---
+
+## **Contact**
+
+Created by Burcu Doga KAMACI - feel free to contact me!
+
+---
